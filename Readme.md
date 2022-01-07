@@ -1,3 +1,3 @@
 # GitHub
 
-- git init
+magn.dev

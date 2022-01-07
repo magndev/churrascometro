@@ -1,0 +1,88 @@
+body{
+    background-image: url(../assets/images/fundo.jpg );
+    background-color: rgb(225, 226, 228);
+}
+
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 350px;
+    margin: auto;
+    background: linear-gradient(-45deg, #000, #202121);
+    padding: 20px;
+    border-radius: 7px;
+    color: #fff;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.05);
+}
+
+#logo{
+    width: 250px;
+    align-items: center;
+    padding: 0;
+    display: block;
+    margin: auto;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    border: none;
+    font-style: italic;
+}
+
+h1{
+    margin: 0, 0, 10px, 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+span {
+    font-weight: 300;
+    color: #bababa;
+}
+
+button {
+    width: 100%;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 7px;
+    color: #fff;
+    border: none;
+    margin-bottom: 15px;
+    background: linear-gradient(-225deg, 
+    #238faa, #497b36);
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 10px 5px rgba(52, 133, 116, 0.2);
+}
+
+@keyframes botao{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+
+#resultado{
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+    
+
+
+
